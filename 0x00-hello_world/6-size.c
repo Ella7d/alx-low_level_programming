@@ -15,7 +15,7 @@ int main(void)
 	double doubleType;
 	char charType;
 
-	printf("Size of a char: %zu byte(s)\n", size of(charType));
+	printf("Size of a char: %zu byte(s)\n", sizeof(charType));
 
 	printf("Size of an int: %d bytes(s)\n", sizeof(intType));
 
