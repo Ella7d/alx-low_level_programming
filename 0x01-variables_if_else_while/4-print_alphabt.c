@@ -10,9 +10,9 @@ int main(void)
 {
 	char lc;
 
-	for (lc = a; lc = z; lc++)
+	for (lc = 'a'; lc = 'z'; lc++)
 	{
-	if (lc != e && lc != q)
+	if (lc != 'e' && lc != 'q')
 	putchar(lc);
 	putchar('\n');
 	}
