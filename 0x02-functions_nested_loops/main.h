@@ -1,6 +1,5 @@
 
-#ifndef MAIN_H_
-#DEFINE MAIN_H_
+#include <stdio.h>
 /**
  * main -entry point
  *
@@ -11,6 +10,6 @@
 int  main(void)
 {
 int _putchar(char c);
-return(0);
+return (0);
 }
 #ENDIF
