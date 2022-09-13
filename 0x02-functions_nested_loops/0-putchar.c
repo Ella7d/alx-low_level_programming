@@ -9,10 +9,10 @@
 int main(void)
 {
 	{
-	char ch;
-	ch = '_putchar';
+	int putchar c;
+	putchar c = '_putchar';
 	
-	putchar(ch);
+	putchar(putchar c);
 	}
 	return (0);
 }
