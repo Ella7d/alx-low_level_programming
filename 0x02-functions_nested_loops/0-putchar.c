@@ -7,10 +7,11 @@
  *
  * Return: Always 0 (success)
  */
-void _putchar()
+void main()
 {
 	{
-	char ch = '_putchar';
+	char = ch;
+	ch = '_putchar';
 	
 	putchar(ch);
 	}
