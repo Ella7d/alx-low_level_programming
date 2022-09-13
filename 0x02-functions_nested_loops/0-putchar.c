@@ -6,10 +6,10 @@
  *
  * Return: Always 0 (success)
  */
-void main()
+int main(void)
 {
 	{
-	char = ch;
+	char ch;
 	ch = '_putchar';
 	
 	putchar(ch);
