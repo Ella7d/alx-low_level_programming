@@ -8,7 +8,7 @@
  * Return: Always 0 (success)
  */
 
-void main(void)
+main(void)
 {
 	{
 	char ch = '_putchar';
