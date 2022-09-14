@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - entry point
- * @f1: number f2: number
+ *
  * Return: 0
  *
  */
