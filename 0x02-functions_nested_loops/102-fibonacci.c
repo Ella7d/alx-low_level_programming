@@ -12,7 +12,9 @@ int main()
 	for (num = 0; num <= 50; num++)
 	{
 	if (f1 == 1)
+	{
 		return (1);
+	}
 	}
 	else if (f1 > 1)
 	{
