@@ -20,7 +20,7 @@ void times_table(void)
 				_putchar(',');
 				_putchar(' ');
 				_putchar(' ');
-				_putchar(d % 10 + '0');	
+				_putchar(d % 10 + '0');
 			}
 			else if (d >= 10)
 			{
@@ -29,7 +29,8 @@ void times_table(void)
 				_putchar(d / 10 + '0');
 				_putchar(d % 10 + '0');
 			}
-		}						_putchar(10);
+		}
+			_putchar(10);
 	}
 }
 
