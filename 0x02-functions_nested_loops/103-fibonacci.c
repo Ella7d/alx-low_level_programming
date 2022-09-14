@@ -11,13 +11,14 @@ int main(void)
 
 	for (num = 0; num <= 4000000; num++)
 	{
+		f3 = f1 + f2;
 		f1 = f2;
 		f2 = f3;
-		f3 = f1 + f2;
+
 		if ((f1 % 2) == 0)
 		num += f1;
 	}
-	printf("%lu\n", num);
+	printf("%ld\n", num);
 	return (0);
 }
 
