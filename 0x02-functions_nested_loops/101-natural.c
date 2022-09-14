@@ -6,9 +6,11 @@
  * Return: 0
  *
  */
-int main(int)
+int_sum_multiples(int)
 {
-	int i, sum = 0;
+	int i;
+
+	sum = 0;
 
 	for (i = 0; i < 1024; i++)
 	{
