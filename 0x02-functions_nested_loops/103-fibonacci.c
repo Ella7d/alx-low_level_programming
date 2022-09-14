@@ -5,9 +5,9 @@
  * Return: 0
  *
  */
- int main(void)
+int main(void)
 {
-	unsigned long f1 = 0, f2 = 1, f3, num = 0;
+	unsigned long f1 = 0, f2 = 1, f3 = 0, num = 0;
 
 	for (num = 0; num <= 4000000; num++)
 	{
