@@ -9,7 +9,7 @@ int main(void)
 {
 	unsigned long f1 = 0, f2 = 1, f3 = 0, num = 0;
 
-	while (n3 <= 4000000)
+	while (f3 <= 4000000)
 	{
 		f3 = f1 + f2;
 		f1 = f2;
