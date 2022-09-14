@@ -1,31 +1,25 @@
 #include <stdio.h>
 /**
  * main - entry point
- * @i: number j: number
+ * @f1: number f2: number
  * Return: 0
  *
  */
-int main()
+int main(void)
 {
-	int f1 = 1, f2 = 2, sum = 0, num = 50;
+	int f1 = 1, f2 = 2, f3, num;
 
+	for (num = 0; num < 50; num++)
 	{
-	for (num = 0; num <= 50; num++)
-	
-	if (f1 == 1)
-	{
-		return (1);
+	f3 = f1 + f2;
+	printf("%d", f3);
+	f1 = f2;
+	f2 = f3;
+	if (num == 49)
+		printf("\n");
+	else
+	printf(", ");
+
 	}
-	else if (f1 > 1)
-	{
-		sum = f1 + f2;
-		while (sum < num)
-		{
-			printf ("%d\n", sum);
-			f1 = f2;
-			f2 = sum;
-			sum = f1 + f2;
-		}
-	}
-	}
+	return (0);
 }
