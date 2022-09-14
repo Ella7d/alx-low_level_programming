@@ -8,14 +8,12 @@
  */
 int main(void)
 {
-	int i, j, sum;
+	int i, j, sum = 0;
 
-	for ((i = 0; i < 1024; i++) && (i = 3 * i))
+	for (i = 0; i < 1024; i++)
 	{
-	for ((j = 0; j < 1024; j++) && (j = 5 * j))
-	}
-	{
-	sum = i + j;
+	if ((i % 3 == 0) || (i % 5 == 0))
+	sum + = i;
 	printf("%d\n", sum);
 	}
 	retutn(0);
