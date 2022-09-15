@@ -2,7 +2,7 @@
 
 /**
  * _isupper - if char isuppercase or not
- * c: character input
+ * @c: int input
  * Return: 1 (success) 0 (failure)
  *
  */
@@ -15,6 +15,5 @@ int _isupper(int c)
 	else
 	{
 		return (0);
-	
 	}
 }
