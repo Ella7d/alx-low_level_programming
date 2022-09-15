@@ -2,8 +2,9 @@
 
 /**
  * mul - multiplies two integers
- * @a: integer @b: integer
- * Return: (mult)
+ * @a: integer input 
+ * @b: integer input
+ * Return: (a * b)
  *
  */
 
