@@ -1,6 +1,6 @@
 #include "main.h"
 
-/*
+/**
  * print_diagonal - print diagonals
  * @n: number oftimes line will print
  *
