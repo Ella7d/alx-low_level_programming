@@ -12,12 +12,18 @@ void print_triangle(int size)
 
 	while (i <= size && size > 0)
 	{
+		j = 0;
+		while (j < size - i)
+		{
 		_putchhar(' ');
 		j++;
 	}
 	j = 0;
 	while (j < i)
 	{
+		_putchar('#');
+		j++;
+	}
 		_putchar('\n');
 		i++;
 	}
