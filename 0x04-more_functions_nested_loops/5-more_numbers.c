@@ -11,9 +11,9 @@ void more_numbers(void)
 	char a, b;
 	int i = 0;
 
-		while (i < 10)
+	while (i < 10)
 	{
-		for (a= 0; a <= 14; a++)
+		for (a = 0; a <= 14; a++)
 		{
 			a = b;
 			if (a > 9)
