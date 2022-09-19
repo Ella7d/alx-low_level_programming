@@ -3,17 +3,13 @@
 /**
  * reset_to_98 - update pointer value to 98
  * @*n: points to int
- * @m: integer
- * Return: int
+ * Return: *n
  * 
  */
 void reset_to_98(int *n)
 {
 	int *n;
-	int m;
-
-	m = 98;
-	*n = &m;
+	*n = 98;
 	  return (*n);
 	
 }	
