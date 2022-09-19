@@ -13,6 +13,6 @@ void print_array(int *a, int n)
 	*a = &arr[];
 	int length = sizeof(arr[]);
 
-	for (i = 0; i < length;
-	printf ("%p, ", *a[i]);
+	for (i = 0; i < length; i++)
+	printf ("%p, ", *(a + 1));
 }
