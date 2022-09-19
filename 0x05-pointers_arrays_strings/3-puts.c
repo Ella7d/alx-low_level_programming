@@ -6,9 +6,9 @@
  * Return: void
  *
  */
-void _puts(char *str);
+void _puts(char *str)
 {
-	_putchar('str');
+	_putchar(str);
 	_putchar('\n');
 	return (0);
 }
