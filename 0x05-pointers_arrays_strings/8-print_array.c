@@ -5,10 +5,11 @@
  * @a: pointer
  * @n: integer
  * Return: 0
+ *
  */
 void print_array(int *a, int n)
 {
-	int i, arr[];
+	int i, arr[0];
 	int length = sizeof(arr[0]);
 
 	for (i = 0; i < length; i++)
