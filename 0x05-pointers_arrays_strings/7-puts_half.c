@@ -20,8 +20,8 @@ void puts_half(char *str)
 	{
 	n = ((str[i] - 1) / 2);
 	}
-	}
 	_putchar(str[i]);
+	}
 	_putchar('\n');
 }
 
