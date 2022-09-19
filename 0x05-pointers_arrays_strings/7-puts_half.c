@@ -4,8 +4,7 @@
  * puts_half - prints half of given string
  * @str: pointer
  * Return: 0
- *
- /
+ */
  void puts_half(char *str)
  {
 	int i;
