@@ -4,15 +4,13 @@
  * @a: pointer
  * @b: pointer
  * @temp: integer
- * Return: int
+ * Return: 0
  *
  */
 void swap_int(int *a, int *b)
 {
-	int temp;
-
-	temp = *a;
+	int temp = *a;
 	*a = *b;
 	*b = temp;
-	return (int);
+	return (0);
 }
