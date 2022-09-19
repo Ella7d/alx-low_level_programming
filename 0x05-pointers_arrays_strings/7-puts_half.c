@@ -5,19 +5,19 @@
  * @str: pointer
  * Return: 0
  */
- void puts_half(char *str)
- {
+void puts_half(char *str)
+{
 	int i;
 	int n;
-	
+
 	for (i = 0; str[i] != '\0'; i++)
-	if (n / 2 == 0 )
+	if (n / 2 == 0)
 	{
 	_putchar(str[i] / 2);
 	}
 	else if (n / 2 != 0)
 	{
-	_putchar((str[i] -1) / 2;
+	_putchar((str[i] - 1) / 2);
 	}
 }
 
