@@ -8,13 +8,11 @@
  */
 void print_rev(char *s)
 {
-	int i, j;
+	int i;
 	int len;
-	char ipstr, opstr;
 	for (i = len-1; i >= 0; i++)
 	{
-		opstr[j] =  ipstr[i];
-		j++;
+	strrev(str[i]);	
 	}
 }
 
