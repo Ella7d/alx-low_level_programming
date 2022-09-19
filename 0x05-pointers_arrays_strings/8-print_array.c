@@ -9,11 +9,10 @@
  */
 void print_array(int *a, int n)
 {
-	int i, arr[0];
-	int length = sizeof(arr[0]);
+	int i, arr[];
+	*a = &arr[];
+	int length = sizeof(arr[]);
 
-	for (i = 0; i < length; i++)
-		_putchar(arr[i]);
-	_putchar('\n');
+	for (i = 0; i < length;
+	printf ("%p, ", *a[i]);
 }
-
