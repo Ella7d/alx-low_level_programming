@@ -3,16 +3,20 @@
  * reverse_array - reverses array elements
  * @a: array
  * @n: number of array elements
+ * Return: 0
  */
 void reverse_array(int *a, int n)
 {
-	int i, temp;
+	int i, j, temp;
 
-	for (i = 0; i < n ; i--)
+	i = 0;
+	j = n - 1;
+	while (i < j)
 	{
 		temp = a[i];
-		a[i] = a[n];
-		a[n] = temp;
+		a[i] = a[j];
+		a[j] = temp;
+		i++;
+		j--;
 	}
 }
-		
