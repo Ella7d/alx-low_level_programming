@@ -1,7 +1,7 @@
 #include "main.h"
 #include<string.h>
 /**
- * *_strcat - concatinate strings
+ * _strcat - concatinate strings
  * @dest: string
  * @src: string
  * Return: always 0
