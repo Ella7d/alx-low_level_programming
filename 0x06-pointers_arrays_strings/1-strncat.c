@@ -1,26 +1,29 @@
 #include "main.h"
 /**
  * _strncat - concantinate 2 strings upto n
- * @dest: string 
+ * @dest: string
  * @src: string
  * @n: string count
- * Return: 0 
- * 
+ * Return: 0
  */
 char *_strncat(char *dest, char *src, int n)
 {
 	char dest, src;
 	int i, j;
 
-	for (i = 0; dest[i] != '\0'; i++)
+	i = 0;
+	while (dest[i] != '\0')
 	{
-		for (j = 0; src[j] != '\0'; j++)
-		{
-			if (src[j] < n)
-		dest[i] = src[j];
-		i++;
-		j++;
-		}
+	i++;
 	}
-	dest[i++] = '\0';
+
+	j = 0;
+	while (j < n && src[j] != '\0')
+	{
+		dest[i] = src[j];
+		j++;
+		i++;
+	}
+	dest[i] = '\0';
+	return (dest);
 }
