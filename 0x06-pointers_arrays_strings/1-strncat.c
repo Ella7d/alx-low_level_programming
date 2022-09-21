@@ -8,7 +8,6 @@
  */
 char *_strncat(char *dest, char *src, int n)
 {
-	char dest, src;
 	int i, j;
 
 	i = 0;
