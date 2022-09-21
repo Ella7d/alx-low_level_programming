@@ -10,7 +10,7 @@ char *cap_string(char *c)
 	int i, j;
        char sep[] = " \t\n,;.!?\"(){}";
 
-	for (i = 0;c[i] != '\0'; i++)
+	for (i = 0; c[i] != '\0'; i++)
 	{
 		if (c[0] >= 97 && c[0] <= 122)
 			c[0] = s[0] -32;
