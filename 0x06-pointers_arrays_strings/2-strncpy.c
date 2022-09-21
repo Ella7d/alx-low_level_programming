@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _strncpy - copies one string into another upto n
+ * i_strncpy - copies one string into another upto n
  * @dest: string input
  * @src: string input
  * @n: string count
@@ -8,17 +8,15 @@
  */
 char *_strncpy(char *dest, char *src, int n)
 {
-	int i, j;
+	int i;
 
 	for (i = 0; dest[i] != '\0'; i++)
-	{
-		for (j = 0; src[j] != '\0'; j++)
 		{
-			if (dest[j] < n)
-			src[j] = dest[i];
+			if (dest[i] < n)
+			src[i] = dest[i];
 		}
-	}
-	src[j++] = '\0';
+	src[i] = '\0';
+	return (dest);
 }
 				
 
