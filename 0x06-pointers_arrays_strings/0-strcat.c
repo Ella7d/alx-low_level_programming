@@ -1,11 +1,13 @@
 #include "main.h"
 #include<string.h>
+
 /**
  * _strcat - concatinate strings
  * @dest: string
  * @src: string
  * Return: always 0
  */
+
 char *_strcat(char *dest, char *src)
 {
 	int i, j;
