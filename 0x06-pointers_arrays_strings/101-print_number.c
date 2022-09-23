@@ -10,7 +10,7 @@ void print_number(int n)
 
 	if (n < 0)
 	{
-		_putchar()45;
+		_putchar(45);
 		m = n * -1;
 	}
 	else
@@ -19,10 +19,11 @@ void print_number(int n)
 	}
 	d = m;
 	count = 1;
+	
 	while (d > 9)
 	{
-	d /= 10;
-	count *= 10;
+		d /= 10;
+		count *= 10;
 	}
 	for (; countb >= 1; count /= 10)
 	{
