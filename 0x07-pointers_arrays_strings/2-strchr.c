@@ -4,7 +4,7 @@
  * _strchr - searches for a string
  * @s: string to be scanned
  * @c: char to be searched
- * Return: 
+ * Return: s
  */
 char *_strchr(char *s, char c)
 {
