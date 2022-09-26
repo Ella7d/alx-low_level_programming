@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _strstr -  finds the first occurrence of the substring 
+ * _strstr - finds the first occurrence of the substring
  * @haystack: string tobe searched in
  * @needle: string to searched for
  * Return: needle
