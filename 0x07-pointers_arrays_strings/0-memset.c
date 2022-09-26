@@ -1,5 +1,5 @@
 #include "main.h"
-#include<string.h>
+#include <string.h>
 /**
  * _memset - memory settle
  * @s: pointer to a value of char to be filled
@@ -9,11 +9,11 @@
  */
 char *_memset(char *s, char b, unsigned int n)
 {
-	unsigned int i;
+	int i;
 
 	for (i = 0; s[i] < n; i++)
 	{
-		s[i] = *b;
+		s[i] = b;
 	}
 	return (s);
 }
