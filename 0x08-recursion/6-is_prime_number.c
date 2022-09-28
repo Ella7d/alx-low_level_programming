@@ -20,10 +20,11 @@ int is_prime(int n, int divisor)
  */
 int is_prime_number(int n)
 {
+	int divisor = 3;
+
 	if (n % 2 == 0 || n < 2)
 		return (0);
 	else if (n == 2)
 		return (1);
-	else
-		return (is_prime(n, divisor));
+	return (is_prime(n, divisor));
 }
