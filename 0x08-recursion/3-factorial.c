@@ -7,7 +7,7 @@
 int factorial(int n)
 {
 if (n > 0)
-	_putchar(n*facrorial(n - 1));
+	_putchar(n * factorial(n - 1));
 else
 	return (-1);
 }
