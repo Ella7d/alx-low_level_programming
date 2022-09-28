@@ -2,6 +2,7 @@
 /**
  * is_prime - divide by numbers skip even numbers
  * @divisor: divisor by n
+ * @n: number to check
  * Return: 1 if prime
  */
 int is_prime(int n, int divisor)
