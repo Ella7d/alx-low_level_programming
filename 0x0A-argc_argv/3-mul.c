@@ -6,7 +6,6 @@
  * @argc: argument counter
  * @argv: numbers to multiply
  * Return: 0 on success, 1 if two arguments not given
- * Return: Always 0 (Success)
  */
 int main(int argc, char *argv[])
 {
@@ -20,8 +19,11 @@ int main(int argc, char *argv[])
 
 		return (1);
 	}
+
 	i = atoi(argv[1]);
 	j = atoi(argv[2]);
+	mul = i * j;
+
 	printf("%d\n", mul);
 	return (0);
 }
