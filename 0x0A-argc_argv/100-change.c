@@ -5,34 +5,37 @@
  *  main - prints changes
  *  @argc: count args
  *  @argv: vector
- *  Return: 0 
+ *  Return: 0
  */
 int main(int argc, char *argv[])
 {
 	int n, coins = 0;
 
-	if (args != 2)
-	{
-		printf("Errors\n");
-		return (1);
-	}
-	if (argv[1][0] == '-')
-	{
-		printf("0\n");
-		return (0);
-	}
-	n = atoi(argv[1]);
+	if (argc == 1 || argc > 2)
+		{
+			printf("Error\n");
+			return (1);
+		}
 
-	coins += n / 25;
-	n = n % 25;
-	coins += n / 10;
-	n = n % 10;
-	coins += n / 5;
-	n = n % 5;
-	coins += n / 2;
-	n = n % 2;
-	coins += n / 1;
+		cents = atoi(argv[1]);
+			while (cents > 0)
+			{
+	if (cents >= 25)
+		cents -= 25;
 
-	printf("%d\n", coins);
-	return (0);
+		else if (cents >= 10)
+			cents -= 10;
+
+			else if (cents >= 5)
+				cents -= 5;
+
+				else if (cents >= 2)
+					cents -= 2;
+
+					else if (cents >= 1)
+						cents -= 1;
+		ncoins += 1;
+			}
+		printf("%d\n", ncoins);
+			return (0);
 }
