@@ -5,11 +5,11 @@
  *  main - prints changes
  *  @argc: count args
  *  @argv: vector
- *  Return: val
+ *  Return: 0 
  */
 int main(int argc, char *argv[])
 {
-	int c, coins = 0;
+	int n, coins = 0;
 
 	if (args != 2)
 	{
