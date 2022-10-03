@@ -18,10 +18,13 @@ char *create_array(unsigned int size, char c)
 	i++;
 	return (a);
 	}
-	else if (size == 0 && a == '\0')	
+	else if (size == 0)
 	{
-		return ("\0");
+		return ('\0');
 	}
-	return ("\0");
+	else	
+		return ('\0');
+	}
+	return ('\0');
 }
 
