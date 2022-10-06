@@ -8,7 +8,7 @@
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-	char *arr;
+	void *arr;
 	unsigned int i;
 
 	if (nmemb == 0 || size == 0)
@@ -22,8 +22,27 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	 }
 	 for (i = 0; i < (nmemb * size); i++)
 		 arr[i] = 0;
-		 return (arr);
+	_memset(arr, 0, size * nmemb);
+
+	 return (arr);
 }
+
+/**
+ * _memset - fills memory with a constant byte
+ * @s: memory area
+ * @b: constant byte
+ * @n: bytes of the memory area
+ * Return: pointer to the memory area s
+ */
+char *_memset(char *s, char b, unsigned int n)
+{
+	char *arr = s;
+
+		while (n--)
+			*s++ = b;
+
+		return (arr);
+
 
 
 
