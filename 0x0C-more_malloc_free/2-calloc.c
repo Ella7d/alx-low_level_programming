@@ -1,4 +1,4 @@
-#include "main.hi"
+#include "main.h"
 #include <stdlib.h>
 /**
  * *_calloc - allocates memory using calloc
