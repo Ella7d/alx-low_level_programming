@@ -9,18 +9,14 @@
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	void *arr;
-	unsigned int i;
 
 	if (nmemb == 0 || size == 0)
-	{
 		return (NULL);
-	}
+
 	arr = malloc(nmemb * size);
 	if (arr == 0)
-	{
 		 return (NULL);
-	}
-	_memset(arr, 0, size * nmemb);
+	_memset(arr, 0, (size * nmemb));
 
 	 return (arr);
 }
@@ -34,10 +30,11 @@ void *_calloc(unsigned int nmemb, unsigned int size)
  */
 char *_memset(char *s, char b, unsigned int n)
 {
-	char *arr = s;
+	unsigned int i;
 
-	while (n--)
-		*s++ = b;
-
-	return (arr);
+	for (i = 0; i < n; i++)
+	{
+		s[i] = b;
+	}
+	return (s);
 }
