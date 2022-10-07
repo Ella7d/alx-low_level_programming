@@ -70,7 +70,7 @@ void *mul_array(char *a1, int len1, char a2, char *a3, int lena)
 	{
 		mul += a3[k] - '0';
 		a3[k] = (mul % 10) + '0';
-		mul += 10;
+		mul /= 10;
 		k--;
 	}
 	return (a3);
