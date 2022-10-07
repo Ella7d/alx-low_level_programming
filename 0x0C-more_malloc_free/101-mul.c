@@ -7,7 +7,7 @@
  */
 int _atoi_digit(char x)
 {
-	unsigned int res:
+	unsigned int res;
 
 	if (x <= '9' && x >= '0')
 		res = x - '0';
