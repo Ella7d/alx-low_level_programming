@@ -2,7 +2,7 @@
 #define DOG_H
 /**
  * struct dog- creates dog struct
- * @name: name 
+ * @name: name
  * @age: age
  * @owner: owner
  *
