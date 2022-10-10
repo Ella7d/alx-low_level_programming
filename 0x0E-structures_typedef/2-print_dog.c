@@ -2,12 +2,12 @@
 /**
  * print_dog - prints dog info
  * @d: dog info
- * Return: NULL if fail
+ * Return: Nothing
  *
  */
 void print_dog(struct dog *d)
 {
-	if (d != NULL)
+	if (d)
 	{
 	if (d->name)
 		printf("Name: %s\n", d->name);
@@ -21,4 +21,6 @@ void print_dog(struct dog *d)
 	else
 		printf("Owner: (nill)\n");
 	}
+	else
+		return;
 }
