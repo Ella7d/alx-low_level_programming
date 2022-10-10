@@ -12,15 +12,15 @@ struct dog
 	char *name;
 	float age;
 	char *owner;
-}
+};
 /**
  * dog_i - typedefdog
  *
  */
-typedef struct dog dog_i;
+typedef struct dog d;
 	{
-		dog_i.name = &name;
-		dog_i.age = age;
-		dog_i.owner = &owner;
+		d_i.name = name;
+		d_i.age = age;
+		d_i.owner =owner;
 	}
 #endif
