@@ -25,7 +25,7 @@ int main(int argc, char *argv[])
 		}
 
 		fptr = get_op_func(argv[2]);
-		
+
 		if (fptr == NULL)
 		{
 			printf("Error\n");
@@ -34,7 +34,7 @@ int main(int argc, char *argv[])
 
 		a = atoi(argv[1]);
 		b = atoi(argv[3]);
-		
+
 		printf("%d\n", fptr(a, b));
 		return (0);
 }
