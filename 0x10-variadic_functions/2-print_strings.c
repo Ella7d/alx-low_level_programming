@@ -13,16 +13,16 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	unsigned int i;
 	va_list vl;
 	char *c;
-	
-	va_start(vl, c);
+
+	va_start(vl, n);
 
 	for (i = 0; i < n; i++)
 	{
-		c = va_arg(vl,char *);
+		c = va_arg(vl, char *);
 		{
 		if (c)
 			printf("%s", c);
-		
+
 		else
 			printf("(nil)");
 		}
