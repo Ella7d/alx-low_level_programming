@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include "variadic_functions.h"
 /**
- * print_nembers - prints numbers
+ * print_numbers - prints numbers
  * @separator: string to be printed between numbers
  * @n:number of integers passed to the function
  * Return: 0
