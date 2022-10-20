@@ -2,7 +2,7 @@
 
 /**
  * list_len - list length
- * @h: ptr 
+ * @h: ptr
  * Return: number of elements
  *
  */
