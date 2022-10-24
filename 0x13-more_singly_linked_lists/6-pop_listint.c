@@ -1,7 +1,7 @@
 #include "lists.h"
 #include <stdlib.h>
 /**
- * pop_listint - deletes list 
+ * pop_listint - deletes list
  * @head: head of node
  * Return: n
  */
