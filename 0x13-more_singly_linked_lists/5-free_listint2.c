@@ -1,21 +1,20 @@
 #include "lists.h"
-
 /**
- * free_listsint2 - frees lists
- * @head: headof list
- *
+ * free_listint2 - free heap
+ * @head: node
  */
 void free_listint2(listint_t **head)
 {
-	listint_t *temp;
+	listint_t *tmp;
 
 	if (head == NULL)
 		return;
 	while (*head)
 	{
-		temp = (*head)->next;
+		tmp = (*head)->next;
 		free(*head);
-		*head = temp;
+		*head = tmp;
 	}
+
 	head = NULL;
 }
