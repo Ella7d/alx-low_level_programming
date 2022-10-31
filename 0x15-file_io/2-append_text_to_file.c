@@ -1,4 +1,4 @@
-i#include "main.h"
+#include "main.h"
 /**
   * append_text_to_file - appends text at the end of a file.
   * @filename: pointer to nam eof file.
@@ -9,7 +9,7 @@ int append_text_to_file(const char *filename, char *text_content)
 {
 	int file, app, i;
 
-	if (filename <= 0)
+	if (filename == NULL)
 		return (-1);
 	file = open(filename, O_WRONLY | O_EXCL | O_APPEND);
 	if (file < 0)
