@@ -27,7 +27,7 @@ int main(int argc, char *argv[])
 	}
 	while ((size = read(file1, buf, 1024)) > 0)
 	{
-		if (write(file2, buf, size) != size)
+	if (write(file2, buf, size) != size)
 		{
 	dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]), exit(99);
 		}
