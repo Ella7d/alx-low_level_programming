@@ -2,7 +2,7 @@
 
 /**
  * free_dlistint - free dlistint
- * @head: head of dlistint
+ * @head: pointer head of dlistint
  *
  */
 void free_dlistint(dlistint_t *head)
@@ -11,7 +11,7 @@ void free_dlistint(dlistint_t *head)
 
 	while (head != NULL)
 	{
-		tmp = head->;
+		tmp = head;
 		head = head->next;
 		free(tmp);
 	}
