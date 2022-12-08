@@ -1,4 +1,5 @@
 #include "main.h"
+#include<unistd.h>
 /**
  * _putchar - em
  * @c: char
@@ -6,6 +7,6 @@
  */
 int _putchar(char c)
 {
-	write (1, &c, 1);
-	return (write);
+	return (write(1, &c, 1));
+
 }
