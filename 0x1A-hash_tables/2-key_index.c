@@ -1,9 +1,8 @@
 #include "hash_tables.h"
 
 /**
- * key_index - Get the index at which a key/value pair should
- *             be stored in array of a hash table
- * @key: The key to get the index of
+ * key_index - gives index of a key/value pair should
+ * @key: The key to get the index
  * @size: The size of the array of the hash table
  * Return: The index of the key
  */
